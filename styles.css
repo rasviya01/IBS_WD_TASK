@@ -1,0 +1,67 @@
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('house.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 500px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: white;
+}
+
+.hero p {
+    font-size: 1.25rem;
+}
+ 
+/* Card Images */
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Gallery Section */
+#gallery img {
+    border-radius: 10px;
+}
+.container6{
+    background-color: rgb(80, 156, 228); 
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}
+
+
+/* Optional: For smooth scrolling between sections */
+html {
+    scroll-behavior: smooth;
+    transition: 0.3s;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0; /* Optional: Removes any left padding */
+  }
+
+
